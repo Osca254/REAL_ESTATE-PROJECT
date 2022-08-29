@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+}
+#first-container{
+   background-color: black;
+   width: 87%;
+}
+.header-container{
+    display: flex;
+    background-color:rgb(255, 238, 0);
+    justify-content: space-around;
+    
+    
+}
+.log{
+    color:red;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+    padding-left: 50px;
+    font-style:normal;
+    font-size: larger;
+    font-weight: bolder;
+}
+/* body {
+   background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+#login{
+    border: solid black;
+    padding: 3%;
+    margin-left: 50%;
+    border-radius: 7%;
+    background-color: black;
+    color: white;
+}
+.section{
+    
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 9%;
+    width: 220px;
+}
+
+#buttons{
+    display: flex;
+    width: 150px; 
+}
+#button1{
+    background-color: gray;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    border: none;
+    width: 150px;
+    padding: 8%;
+}
+#button2{
+    background-color: gray;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    border: none;
+    width: 150px;
+    padding: 8%;
+}
+#button1:hover{
+    background-color: white;
+    border: none;
+}
+#button2:hover{
+    background-color: white;
+    border: none;
+}
+#framework{
+    padding: 3%;
+    border: none;
+}
