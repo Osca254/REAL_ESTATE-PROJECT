@@ -7,17 +7,18 @@
 }
 .header-container {
   display: flex;
-  background-color: rgb(248, 236, 246);
+  background-color:rgb(29, 25, 25);
   justify-content: space-around;
   align-items: center;
   
 }
-.log {
-  color: red;
+.logo {
+  color: rgb(247, 240, 240);
   font-style: italic;
   font-size: larger;
   font-weight: bolder;
-  margin-left: 32%;
+  margin-left:2%;
+  margin-bottom: 32%;
 }
 #num{
   font-style: italic;
@@ -30,7 +31,7 @@ nav ul {
   justify-content: space-around;
   list-style: none;
   text-decoration: none;
-  color: black;
+  color: rgb(57, 70, 57);
 }
 
 a:link {
@@ -177,6 +178,8 @@ border: none;
   height: 35vh;
   width: 50%;
   padding-top: 2%;
+  background-color: rgb(177, 219, 231);
+  border-image-outset: 4%;
 }
 #payment-methods{
   border: rgb(192, 196, 188)  ;
@@ -184,39 +187,48 @@ border: none;
   width: 50%;
   padding-top: 2%;
   margin-left: 2%;
+  background-color: rgb(177, 219, 231);
 }
 #makeItOfficial{
   border: rgb(192, 196, 188)  ;
   height: 35vh;
   width: 46vw;
+  background-color: rgb(177, 219, 231);
   padding-top: 2%;
   margin-left: 2%;
-  padding-bottom: 2%;
+  
 }
 #properties{
 display: flex;
 width: 100%;
+
 }
+
 #house1-descr{
   display: flex;
-  width: 250px;
-  align-self: center;
+  /* width: 250px; */
+  margin-bottom: 7%;
+  background-color: rgb(177, 219, 231);
   
 }
 #house2{
   margin-left: 10%;
+  background-color: rgb(177, 219, 231);
 }
 #house2-descr{
   display: flex;
   margin-bottom: 7%;
+  background-color: rgb(177, 219, 231);
 }
 #house3{
   margin-left: 10%;
-  padding-left: 8%;
-  padding-right: 8%;
+  /* padding-left: 8%;
+  padding-right: 8%; */
+  background-color: rgb(177, 219, 231);
 }
 #house3-descr{
   display: flex;
+  margin-bottom: 7%;
 }
 .button4{
   margin-right: 10%;
@@ -224,8 +236,9 @@ width: 100%;
   border: none;
 }
 #button4{
-  background-color: blue;
+  background-color: yellow;
   padding: 12%;
+  margin-left: 25%;
   font-weight: bolder;
   border-radius: 5%;
   border: none;
@@ -243,14 +256,17 @@ width: 100%;
 }
 #customer1{
   width:25%;
+  background-color: rgb(177, 219, 231);
 }
 #customer2{
   width: 25%;
   margin-left: 1%;
+  background-color: rgb(177, 219, 231);
 }
 #customer3{
   width: 25%;
   margin: 1%;
+  background-color: rgb(177, 219, 231);
 }
 .button5{
   margin-top: 10%;
@@ -309,6 +325,12 @@ width: 100%;
   transform-origin: top;
   transition: 0.3s;
 }
+#ulAbout{
+  margin-top: 3%;
+  background-color: rgb(17, 102, 9);
+  padding-left: 2%;
+  margin-right: 20%;
+}
 .list2{
   position:absolute ;
   transform: scaleY(0);
@@ -321,9 +343,11 @@ width: 100%;
   transform: scaleY(0);
   transform-origin: top;
   transition: 0.3s;
-  margin-top: 2%;
-  background-color: plum;
+  color: white;
+  margin-top: 3%;
+  background-color: rgb(17, 102, 9);
   padding-left: 2%;
+  margin-right: 20%;
 }
 .newlist{
 transform: scale(1);
@@ -351,6 +375,7 @@ color: green;
   .form__input-group{
 margin-bottom:1rem ;
   }
+  
   .form--input{
     display: block;
     width: 100%;
