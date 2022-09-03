@@ -16,6 +16,11 @@ let list = document.querySelector('.list');
 property.addEventListener('click',()=>{
  list.classList.toggle('newlist');
 });
+// let login = document.querySelector('#login');
+// let login2= document.querySelector('.login');
+// property.addEventListener('click',()=>{
+//   login2.classList.toggle('newLogin');
+// });
 
 let about = document.querySelector('#about');
 let list2 = document.querySelector('.list2');
@@ -53,17 +58,24 @@ function setInputError(inputElement,message) {
 document.addEventListener('DOMContentLoaded',() => {
 const loginForm = document.querySelector('#login');
 const createAccountForm = document.querySelector('#createAccount')
-
-document.querySelector('#linkCreateAccount').addEventListener('click', (e) => {
-  e.preventDefault();
-  loginForm.classList.add('form--hidden');
-  createAccountForm.classList.remove('form--hidden');
+const imagecontainer = document.querySelector('#imagecontainer');
+const buttons = document.querySelector('#buttons')
+document.getElementById('button4').addEventListener('click',() => {
+  
+})
+buttons.addEventListener('click',() => {
+  console.log(prompt('Input your name to continue'))
+})
+document.querySelector('#button4').addEventListener('click', (e) => {
+  // e.preventDefault();
+ 
+  imagecontainer.classList.remove('imagecontainer');
 });
-document.querySelector('#linkLogin').addEventListener('click', (e) => {
-  e.preventDefault();
-  loginForm.classList.remove('form--hidden');
-  createAccountForm.classList.add('form--hidden');
-});
+// document.querySelector('#linkLogin').addEventListener('click', (e) => {
+//   e.preventDefault();
+//   loginForm.classList.remove('form--hidden');
+//   createAccountForm.classList.add('form--hidden');
+// });
 
 loginForm.addEventListener('submit',e => {
   e.preventDefault()
@@ -79,3 +91,4 @@ document.querySelectorAll('form__input')
   })
 })
 });
+
