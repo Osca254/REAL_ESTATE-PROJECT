@@ -23,6 +23,8 @@ Users can watch a preview of some magnificent and beautiful homes that they can 
   To run this project,clone or download it from github . 
   Use live server or your developers environment(TextEditor),start the server using Live server extension.
   I am in the process of generating a live link once ready i shall post it below. 
+  # Contacts. 
+  https://github.com/Osca254/REAL_ESTATE-PROJECT-1.
   
   
 
